@@ -14,6 +14,9 @@
 		1D32E9CE1E644B3F00621679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D32E9CC1E644B3F00621679 /* LaunchScreen.storyboard */; };
 		1D32E9D91E644B3F00621679 /* FBIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E9D81E644B3F00621679 /* FBIntegrationTests.swift */; };
 		1D32E9E41E644B3F00621679 /* FBIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32E9E31E644B3F00621679 /* FBIntegrationUITests.swift */; };
+		59F048FA07585788AD749504 /* Pods_FBIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A729E7DB9338DE23D558AC68 /* Pods_FBIntegration.framework */; };
+		80816FBE3AA72C221980A19C /* Pods_FBIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0958A5E5F3D15E6DA16DEA6C /* Pods_FBIntegrationTests.framework */; };
+		B5FB21A1697D47A8A86E267B /* Pods_FBIntegrationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F176064D686C2D7904F4227A /* Pods_FBIntegrationUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F77A1CE5359C3237C02319 /* Pods-FBIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegrationTests/Pods-FBIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		05C293A94694388D92584C75 /* Pods-FBIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		0958A5E5F3D15E6DA16DEA6C /* Pods_FBIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D32E9C01E644B3F00621679 /* FBIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D32E9C31E644B3F00621679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D32E9C51E644B3F00621679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		1D32E9DF1E644B3F00621679 /* FBIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D32E9E31E644B3F00621679 /* FBIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBIntegrationUITests.swift; sourceTree = "<group>"; };
 		1D32E9E51E644B4000621679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316A173F5406DD0EF0C41480 /* Pods-FBIntegrationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegrationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegrationUITests/Pods-FBIntegrationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EA18EE04CCC4A7C899AD4AF /* Pods-FBIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegrationTests/Pods-FBIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A729E7DB9338DE23D558AC68 /* Pods_FBIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29E278F2CA713A2F8AEDBC1 /* Pods-FBIntegrationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegrationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegrationUITests/Pods-FBIntegrationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9F1E4A2497D2364A230D5EB /* Pods-FBIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		F176064D686C2D7904F4227A /* Pods_FBIntegrationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBIntegrationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F048FA07585788AD749504 /* Pods_FBIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80816FBE3AA72C221980A19C /* Pods_FBIntegrationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FB21A1697D47A8A86E267B /* Pods_FBIntegrationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				1D32E9D71E644B3F00621679 /* FBIntegrationTests */,
 				1D32E9E21E644B3F00621679 /* FBIntegrationUITests */,
 				1D32E9C11E644B3F00621679 /* Products */,
+				D841B9BB16BFB224EDEAC41C /* Pods */,
+				613EF8E892192052F78C8395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = FBIntegrationUITests;
 			sourceTree = "<group>";
 		};
+		613EF8E892192052F78C8395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A729E7DB9338DE23D558AC68 /* Pods_FBIntegration.framework */,
+				0958A5E5F3D15E6DA16DEA6C /* Pods_FBIntegrationTests.framework */,
+				F176064D686C2D7904F4227A /* Pods_FBIntegrationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D841B9BB16BFB224EDEAC41C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C293A94694388D92584C75 /* Pods-FBIntegration.debug.xcconfig */,
+				E9F1E4A2497D2364A230D5EB /* Pods-FBIntegration.release.xcconfig */,
+				3EA18EE04CCC4A7C899AD4AF /* Pods-FBIntegrationTests.debug.xcconfig */,
+				04F77A1CE5359C3237C02319 /* Pods-FBIntegrationTests.release.xcconfig */,
+				D29E278F2CA713A2F8AEDBC1 /* Pods-FBIntegrationUITests.debug.xcconfig */,
+				316A173F5406DD0EF0C41480 /* Pods-FBIntegrationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D32E9E81E644B4000621679 /* Build configuration list for PBXNativeTarget "FBIntegration" */;
 			buildPhases = (
+				0C9C019CA4C9FFF53E64D125 /* [CP] Check Pods Manifest.lock */,
 				1D32E9BC1E644B3F00621679 /* Sources */,
 				1D32E9BD1E644B3F00621679 /* Frameworks */,
 				1D32E9BE1E644B3F00621679 /* Resources */,
+				61ACFED2DDE14BDEF01031D4 /* [CP] Embed Pods Frameworks */,
+				6ABC0D6F6FB335179FC4A5A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D32E9EB1E644B4000621679 /* Build configuration list for PBXNativeTarget "FBIntegrationTests" */;
 			buildPhases = (
+				2FB7683DFDE50DCC951B0D23 /* [CP] Check Pods Manifest.lock */,
 				1D32E9D01E644B3F00621679 /* Sources */,
 				1D32E9D11E644B3F00621679 /* Frameworks */,
 				1D32E9D21E644B3F00621679 /* Resources */,
+				DA595A1DFA5E4D0912067738 /* [CP] Embed Pods Frameworks */,
+				9C36328EEBEF35EEACAC60B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D32E9EE1E644B4000621679 /* Build configuration list for PBXNativeTarget "FBIntegrationUITests" */;
 			buildPhases = (
+				6DDD3E2BA0F7FB6756D4AFC0 /* [CP] Check Pods Manifest.lock */,
 				1D32E9DB1E644B3F00621679 /* Sources */,
 				1D32E9DC1E644B3F00621679 /* Frameworks */,
 				1D32E9DD1E644B3F00621679 /* Resources */,
+				1E36F6E8D2AAA6EA34323AF5 /* [CP] Embed Pods Frameworks */,
+				7231FF60DAEF6EEED85F4221 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C9C019CA4C9FFF53E64D125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E36F6E8D2AAA6EA34323AF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegrationUITests/Pods-FBIntegrationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FB7683DFDE50DCC951B0D23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61ACFED2DDE14BDEF01031D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABC0D6F6FB335179FC4A5A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegration/Pods-FBIntegration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDD3E2BA0F7FB6756D4AFC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7231FF60DAEF6EEED85F4221 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegrationUITests/Pods-FBIntegrationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C36328EEBEF35EEACAC60B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegrationTests/Pods-FBIntegrationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA595A1DFA5E4D0912067738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIntegrationTests/Pods-FBIntegrationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D32E9BC1E644B3F00621679 /* Sources */ = {
@@ -410,30 +597,37 @@
 		};
 		1D32E9E91E644B4000621679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C293A94694388D92584C75 /* Pods-FBIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.FBIntegration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1D32E9EA1E644B4000621679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F1E4A2497D2364A230D5EB /* Pods-FBIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.FBIntegration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1D32E9EC1E644B4000621679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA18EE04CCC4A7C899AD4AF /* Pods-FBIntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +642,7 @@
 		};
 		1D32E9ED1E644B4000621679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F77A1CE5359C3237C02319 /* Pods-FBIntegrationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +657,7 @@
 		};
 		1D32E9EF1E644B4000621679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29E278F2CA713A2F8AEDBC1 /* Pods-FBIntegrationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FBIntegrationUITests/Info.plist;
@@ -475,6 +671,7 @@
 		};
 		1D32E9F01E644B4000621679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316A173F5406DD0EF0C41480 /* Pods-FBIntegrationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FBIntegrationUITests/Info.plist;
