@@ -9,7 +9,9 @@ target 'FBIntegration' do
   pod ‘FacebookCore’
   pod ‘FacebookLogin’
   pod ‘FacebookShare’
-
+  pod ‘Kingfisher’
+ 
+ 
   target 'FBIntegrationTests' do
     inherit! :search_paths
     # Pods for testing
